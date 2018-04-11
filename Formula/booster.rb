@@ -1,9 +1,9 @@
 class Booster < Formula
   desc "peer-to-peer network interface balancer"
   homepage "https://booster.tecnoporto.co/"
-  url "https://github.com/danielmorandini/booster/releases/download/v0.3.0/booster_0.3.0_darwin_amd64.tar.gz"
-  version "0.3.0"
-  sha256 "0a7efd489e2ee02cc741d4adf91a7e5481a43769affe8a782dce6953c0a6a4fe"
+  url "https://github.com/danielmorandini/booster/releases/download/v0.3.1/booster_0.3.1_darwin_64bit.tar.gz"
+  version "0.3.1"
+  sha256 "3e46dd3ac1322c6fb6fc02c33750cb7aa4b2325467c234033360a047693de161"
 
   def install
     bin.install "booster"
